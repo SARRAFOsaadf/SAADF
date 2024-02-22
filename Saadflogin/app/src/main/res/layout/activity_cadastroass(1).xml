@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B8DAEA"
+    android:layout_height="match_parent"
+    tools:context=".cadastroass">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/Login-rafiki"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="FICHA DE ASSOCIAÇÃO DA ASDEFIG"
+        android:textColor="#A3000000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/et-Numero"
+        android:layout_width="367dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:height="60dp"
+        android:background="@drawable/edit"
+        android:drawablePadding="10dp"
+        android:hint="Digite Nº"
+        android:inputType="textEmailAddress"
+        android:padding="18dp"
+        android:textColorHint="#A3000000"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

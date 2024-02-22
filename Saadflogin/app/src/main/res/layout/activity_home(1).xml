@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="408dp"
+    android:layout_height="630dp"
+    android:layout_marginBottom="-100dp"
+    android:background="#B8DAEA"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="630dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="-25dp"
+            android:text=" Criar uma\nnova conta"
+            android:textColor="#A3000000"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text=" Já possui uma conta? Entre aqui"
+            android:textColor="#A3000000"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/et-nome"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:hint="Nome"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textColorHint="#A3000000" />
+
+
+
+        <EditText
+            android:id="@+id/et-email"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:textColorHint="#A3000000" />
+
+
+        <EditText
+            android:id="@+id/et-pass"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="#A3000000" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="Cadastrar"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Possui cadastro? Entre aqui."
+            android:textColor="#A4000000"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
